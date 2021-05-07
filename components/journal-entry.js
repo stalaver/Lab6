@@ -78,7 +78,7 @@ class JournalEntry extends HTMLElement {
     // CODE GOES HERE
 
     if (entry.image) {
-      let entryImage;
+      let entryImage = document.createElement("img");
       /*
        * TODO: if the entry contains an image resource,
        * 1. create an image element with the correct class
@@ -104,7 +104,7 @@ class JournalEntry extends HTMLElement {
 
     }
     if (entry.audio) {
-      let entryAudio;
+      let entryAudio = document.createElement("audio");
       /*
        * TODO: if the entry contains an audio resource,
        * 1. create an audio element with the correct class
