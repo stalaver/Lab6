@@ -1,4 +1,4 @@
-# CSE110 SP21 Lab 5
+# CSE110 SP21 Lab 6
 
 ## Author(s):
 - Sergio Talavera
